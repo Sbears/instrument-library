@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Oud Collection</title>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+    <div id="instrument-collection-tpl">
+      <h2 class="collection-name">Collection Name</h2>
+      <form>
+        <input type="text" name="instument-field" placeholder="Chosen Instrument">
+        <input type="text" name="description-field" placeholder="Instrument Description">
+        <input type="number" name="num-field" placeholder="0">
+        <input type="submit">
+        <ul class="instrument-list"></ul>
+      </form>
+
+      <li id="instrument-tpl">
+        <h4 class="instrument-name">Instrument Name</h4>
+        <em class="instrument-description">Movie Description</em>
+        <span class="instrument-num">0</span>
+      </li>
+    </div>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
